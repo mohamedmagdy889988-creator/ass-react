@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #1ABC9C;
+    --color-secandary: #2C3E50;
+
+}
+
+@utility container {
+    margin-inline: auto;
+    padding-inline: 2rem;
+}
+.center{
+    @apply flex items-center justify-between
+}
+.active{
+    @apply bg-primary px-2 py-2.5;
+    border-radius: 8px;
+}
+.row{
+    @apply flex items-center justify-center flex-wrap
+}
