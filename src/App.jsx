@@ -1,8 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import Layout from "./Components/layout"
+import Layout from "./Components/Layout"
 import Home from "./Pages/Home"
 import About from "./Pages/About"
-import Contact from "./Pages/contact"
+import Contact from "./Pages/Contact"
 import Portfolio from "./Pages/Portfolio"
 import Notfound from "./Pages/Notfound.jsx"
 
